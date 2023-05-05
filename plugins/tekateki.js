@@ -9,7 +9,7 @@ let handler = async (m, { conn, usedPrefix }) => {
         conn.reply(m.chat, 'Masih ada soal belum terjawab di chat ini', conn.tekateki[id][0])
         throw false
     }
-    let src = await (await fetch('https://raw.githubusercontent.com/qisyana/scrape/main/tekateki.json')).json()
+    let src = await (await fetch('https://raw.githubusercontent.com/FIkriBotDev/databot/main/tekateki.json')).json()
     let json = src[Math.floor(Math.random() * src.length)]
     let caption = `${json.pertanyaan}
 
