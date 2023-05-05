@@ -1,0 +1,10 @@
+let handler = async m => m.reply(`
+            https://youtu.be/1-lDeLNkgk4
+`.trim()) //
+
+handler.customPrefix = /^(.sc|.script|sc|script)$/i
+handler.command = new RegExp
+
+handler.limit = false
+handler.mods = false 
+module.exports = handler
