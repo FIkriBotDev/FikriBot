@@ -19,5 +19,7 @@ apt install imagemagick -y
 wget -O ~/../usr/share/tessdata/ind.traineddata "https://github.com/tesseract-ocr/tessdata/blob/master/ind.traineddata?raw=true"
 yarn
 
+npm install     # This will install all the necessary node_modules
+
 echo "[*] All dependencies have been installed, please run the command \"npm start\" to immediately start the script"
 npm start
