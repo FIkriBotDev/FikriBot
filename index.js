@@ -19,11 +19,11 @@ let hariArr = ["Minggu", "Senin", "Selasa", "Rabu", "Kamis", "Jum'at", "Sabtu"];
 let bulanArr = ["Januari", "Februari", "Maret", "April", "Mei", "Juni", "Juli", "Agustus", "September", "Oktober", "November", "Desember"];
 
 let tahun = date.getFullYear();
-var bulan = bulanArr[date.getMonth()];
-var hari = hariArr[date.getDay()];
+let bulan = bulanArr[date.getMonth()];
+let hari = hariArr[date.getDay()];
 
-var tanggal = date.getDate();
-var jams = date.getHours();
+let tanggal = date.getDate();
+let jams = date.getHours();
 
 
 // Append 0 in front of minutes and seconds
@@ -51,9 +51,9 @@ let now = {
     break;
 }
 
-var tampilTanggal = hari + " "+ tanggal + " " + bulan + " " + tahun;
-var tampilWaktu =  "Jam : " + jamNow + " " + menitNow + " " + detikNow;
-var tampilHari = "" + jams + " Hari";
+let tampilTanggal = hari + " "+ tanggal + " " + bulan + " " + tahun;
+let tampilWaktu =  "Jam : " + now.jam + " " + now.menit + " " + now.detik;
+let tampilHari = "" + jams + " Hari";
 
 console.log(color(tampilTanggal, "pink"));
 console.log(color(tampilWaktu, "pink"));
