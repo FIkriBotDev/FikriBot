@@ -3,7 +3,7 @@
     "description": "Bot Wa Full fitur",
     "repository": "https://github.com/arivpns/arivpns",
     "logo": "https://node-js-sample.herokuapp.com/node.png",
-    "keywords": ["bot", "whatsapp", "whatsapp-bot"]
+    "keywords": ["bot", "whatsapp", "whatsapp-bot"],
     "buildpacks": [
       {"url": "heroku/nodejs"},
       {"url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git"},
