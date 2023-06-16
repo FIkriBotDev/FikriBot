@@ -4,7 +4,7 @@ let exec = promisify(cp.exec).bind(cp)
 let handler = async (m) => {
     let o
     try {
-        o = await exec('python speed.py')
+        o = await exec('python3 speed.py')
     } catch (e) {
         o = e
     } finally {
